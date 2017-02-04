@@ -18,9 +18,27 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
+        "assets/css/bootstrap.min.css",
+        "assets/css/plugins/font-awesome.min.css",
+        "assets/css/plugins/simple-line-icons.css",
+        "assets/css/plugins/animate.min.css",
+        "assets/css/plugins/fullcalendar.min.css",
+        "assets/css/style.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/js/jquery.min.js",
+        "assets/js/jquery.ui.min.js",
+        "assets/js/bootstrap.min.js",
+        "assets/js/plugins/moment.min.js",
+        "assets/js/plugins/fullcalendar.min.js",
+        "assets/js/plugins/jquery.nicescroll.js",
+        "assets/js/plugins/jquery.vmap.min.js",
+        "assets/js/plugins/maps/jquery.vmap.world.js",
+        "assets/js/plugins/jquery.vmap.sampledata.js",
+        "assets/js/plugins/chart.min.js",
+        "assets/js/main.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
